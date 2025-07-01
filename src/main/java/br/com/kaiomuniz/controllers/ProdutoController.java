@@ -11,13 +11,13 @@ import br.com.kaiomuniz.domain.entities.Produto;
 import br.com.kaiomuniz.domain.services.ProdutoService;
 
 @RestController
-@RequestMapping("/produtos")
+@RequestMapping("api/mercado/v1")
 public class ProdutoController {
 
     @Autowired
     private ProdutoService produtoService;
 
-    @GetMapping
+    @GetMapping("/produtos")
     public List<Produto> listarProdutos() {
         return produtoService.listarProdutos();
     }
