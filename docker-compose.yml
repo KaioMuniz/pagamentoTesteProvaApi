@@ -1,4 +1,18 @@
 services:
+  app:
+    build:
+      context: .
+    container_name: springboot_app
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres_db:5432/mydatabase
+      SPRING_DATASOURCE_USERNAME: myuser
+      SPRING_DATASOURCE_PASSWORD: mypassword
+    ports:
+      - "8086:8086"  # Atualizado para a nova porta 8086
+    depends_on:
+      - db
+    restart: always
+
   db:
     image: postgres:latest
     container_name: postgres_db
