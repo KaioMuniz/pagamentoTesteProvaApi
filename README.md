@@ -4,3 +4,13 @@
 
 
 <img width="1656" height="2339" alt="Teste Técnico Desenvolvedor FullStack Junior" src="https://github.com/user-attachments/assets/7ea19aea-f2f1-4a0a-9359-02ca65c7cd00" />
+
+---
+
+## Contato
+
+Para dúvidas ou sugestões, entre em contato:  
+- kkaioribeiro@gmail.com
+- https://www.linkedin.com/in/kaiomuniz/
+
+---
